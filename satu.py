@@ -3,7 +3,7 @@ ongkir = int(input('ongkir: '))
 member = input('member premium (True/False): ') 
 hari = input('Hari transaksi: ')
 
-member = True if member == 'True' else False
+member == True if member == 'True' else False
 
 if total_belanja >= 400000:
     promo_ongkir = 1.0
